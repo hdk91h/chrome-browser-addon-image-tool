@@ -1,0 +1,229 @@
+/* Variablen */
+	
+:root {
+    --primary-color: #1b1031;
+    --secondary-color: #551C5e;
+	
+	--font-color-main: #FFFFFF;
+	
+	--font-size-standard: 2.2rem;
+	
+	--font-size-l: 16px;
+	--font-size-xl: 32px;
+	
+    --box-width: 200px;
+    --box-height: 100px;
+	}
+	
+	html {
+	
+	box-sizing: none;
+	
+	}
+	
+	body {
+	
+	font-size: var(--font-size-standard)
+	
+	}
+	
+	.fileInput {
+	
+	opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+	}
+	
+	a {
+	
+	color: #FB326B;
+	}
+	
+	a:hover {
+	
+	color: #F59794;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+
+	padding-left: 0;
+	margin: 0;
+	}
+	
+	h1 {
+	font-size: 5.2rem;
+	}
+	
+	h2 {
+	font-size: 3.2rem;
+	}
+	
+	input {
+	padding: 5px;
+	background-image: linear-gradient(lightpink, lightgreen);
+	border-radius: 5px;
+	border: 1px solid lightblue;
+	font-size: 1.7rem;
+	}
+	
+	input:hover {
+	background-image: linear-gradient(lightgreen, lightpink);
+	}
+
+	select {
+	padding: 5px;
+	background-image: linear-gradient(lightpink, lightgreen);
+	border-radius: 5px;
+	border: 1px solid lightblue;
+	font-size: 1.7rem;
+	}
+	
+	#options-inner-field {
+	
+		background: var(--primary-color);
+		padding: 15px;
+		display: none;
+	
+	}
+	
+	#options-resize-field {
+	
+		background: var(--secondary-color);
+		padding: 15px;
+		display: none;
+	
+	}
+	
+	body {
+	
+	margin: 0;
+	padding: 0;
+	background-color: var(--secondary-color);
+	color: var(--font-color-main);
+	
+	}	
+	#imgCon {
+	
+	width: 90%;
+	min-height: 200px;
+	padding: 15px;
+	margin: 0 auto;
+	overflow: auto;
+	background-color: var(--primary-color);
+	}
+	
+	.header {
+		
+	background-color: var(--primary-color);
+	min-height: 150px;
+
+		
+	}
+		
+		.header h1 {
+		padding-left: 30px;
+		margin-top: 30px;
+		}
+	
+	.cont {
+    display: block;
+	width: 100%;
+    }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .col0 {
+            width: 0%;
+            float: left;
+        }
+		
+		.col5 {
+            width: 5%;
+            float: left;
+        }
+
+		.col10 {
+            width: 10%;
+            float: left;
+        }
+		
+		.col15 {
+            width: 15%;
+            float: left;
+        }
+		
+		.col20 {
+            width: 20%;
+            float: left;
+        }
+		
+        .col25 {
+            width: 25%;
+            float: left;
+        }
+		
+		.col30 {
+            width: 30%;
+            float: left;
+        }
+		
+		.col40 {
+            width: 40%;
+            float: left;
+        }
+
+        .col50 {
+            width: 50%;
+            float: left;
+        }
+		
+		.col60 {
+            width: 60%;
+            float: left;
+        }
+		
+		.col70 {
+            width: 70%;
+            float: left;
+        }
+		
+		.col80 {
+            width: 80%;
+            float: left;
+        }
+
+        .col85 {
+            width: 85%;
+            float: left;
+        }
+		
+		.col90 {
+            width: 90%;
+            float: left;
+        }
+
+        .col100 {
+            width: 100%;
+            float: left;
+        }
+
+		
+		
+		tr:nth-child(even) {
+		
+			background-color: #c58f03;
+			border: none;
+		}
+
+		
+
+        @media screen and (max-width: 480px) {
+            /*  Anweisungen für kleinere Bildschirmgrößen */
+            .col25, .col50, .col85, .col100 {
+                width: 100%; /* Beispiel: Spalten nehmen bei kleineren Bildschirmen die volle Breite ein */
+            }
+        }

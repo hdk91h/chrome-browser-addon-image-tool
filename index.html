@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image-Tool</title>
+	<meta name="description" content="Image-Tool!">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="src/style/style.css">
+	
+	
+</head>
+<body>
+
+    <div class="cont">
+     
+            <div class="header col100">
+			
+			<div id="siteTitle">
+			
+				<h1>Image-Tool</h1>
+			
+			</div>
+			
+			</div>
+            
+        </div>
+    </div>
+
+	
+	<fieldset id="fs">
+		<legend>Image-Options</legend>
+	<form>
+		<label for="btnInput" class="">
+		<input type="button" id="btnInput" name="btnInput" value="Input Image(s)">
+		</label>
+	<label for="btnOutput" class="">
+	<input type="button" id="btnOutput" name="btnOutput" value="Output Dir">
+	</label>
+	
+	<!--
+		
+	<label for="k2" class="">
+	<input type="button" id="k2" name="k2" value="Property">
+	</label>
+
+	--->
+
+
+		<label for="btnReset" class="">
+		<input type="button" id="btnReset" name="btnReset" value="Delete Input">
+		</label>
+		
+				<label for="btnQuality" class="">
+		<input type="number" min="1" max="100" id="btnQuality" name="btnQuality" value="80">
+		</label>
+		
+	<label for="sliderQuality" class="">
+	<input type="range" min="1" max="100" id="sliderQuality" name="sliderQuality" value="80">
+	</label>
+		<label for="btnProcess" class="">
+		<input type="button" id="btnProcess" name="btnProcess" value="Process">
+		</label>	
+		
+		
+		<label for="filetyp">Output filetype:
+	<select name="filetype" id="filetype">
+		<option value="webp">webp</option>
+		<option value="jpeg">jpeg</option>
+	<!--
+	<option value="jpg">jpg</option>
+		-->
+		<option value="png">png</option>
+	</select>
+		</label>
+
+	</form>
+	
+	<!--
+	
+	<div id="options-inner-field">
+	
+		<form>
+		<label for="" class="">
+		<input type="range" min="0" max="100" id="" name="" value="50">
+		</label>
+		
+		<label for="optionResizeBox" >
+		<input type="checkbox" id="optionResizeBox" name="optionResizeBox">
+		Resize
+		</label>
+		</form>
+		
+		<div id="options-resize-field">
+			
+			<form>
+				<label for="xSizeImg">
+				<input type="number" min="0" max="1000" id="xSizeImg" name="xSizeImg" value="">
+				Image-Resize-X
+				</label>
+				<label for="ySizeImg">
+				<input type="number" min="0" max="1000" id="ySizeImg" name="ySizeImg" value="">
+				Image-Resize-Y
+				</label>
+			</form>
+			
+		</div>
+
+			
+	
+	</div>
+	
+	-->
+
+	</fieldset>
+	
+	
+			<h2>Images</h2>
+			
+			
+			<div id="imgCon"></div>
+			
+			</div>
+			
+	<script src="src/script/logic.js"></script>
+</body>
+</html>
